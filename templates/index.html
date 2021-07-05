@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div id="logo"><img src="/static/images/logo.png"/></div>
+    <table style="width:100%">
+        <tr>
+            <td id="avatar-left">
+                <img src="/static/images/paul-avatar.png"/>
+            </td>
+            <td>
+                <div><iframe width="560" height="315" src="https://www.youtube.com/embed/j33RoC_EjcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <script src="https://apis.google.com/js/platform.js"></script></div>
+                <div class="g-ytsubscribe" data-channelid="UCATTlKEKPeLYrGb1otqMc8Q" data-layout="full" data-count="hidden"></div>
+            </td>
+            <td id="avatar-right">
+                <img src="/static/images/matt-avatar-2.png"/>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
